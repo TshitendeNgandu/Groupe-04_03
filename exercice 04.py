@@ -1,6 +1,8 @@
-distance_Km=float(input("Entrer la distance en kilometre"))
-temps_heure=float(input("Entrer le temps en heures"))
-vitesse1= distance_Km / temps_heure
-vitesse2= (distance_Km*1000) / (temps_heure*3600)
-print(f"Vitesse en km/h est : {vitesse1}")
-print(f"Vitesse en m/s est : {vitesse2}")
+a=float(input("entrer la première note :"))
+b=float(input("entrer la première note :"))
+c=float(input("entrer la première note :"))
+moyenne=(a+b+c)/3
+if moyenne >=10:
+    print("l'étudiant est reçu.")
+else:
+    print("L'étudiant n'est pas reçu")

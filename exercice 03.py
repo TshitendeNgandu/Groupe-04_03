@@ -1,7 +1,5 @@
-heures=int(input("heures :"))
-minutes=int(input("minutes :"))
-secondes=int(input("secondes :"))
-
-#durée en secondes 
-durée= heures*3600 + minutes*60 + secondes
-print(f" la durée en secondes est : {durée} secondes.")
+ht=int(input("Entrer le prix HT"))
+taux_tva=int(input("entrer le taux TVA en %"))
+taux_coéff=taux_tva/100
+TTC= ht(1+taux_coéff)
+print(f"montant TTC est : {TTC}")

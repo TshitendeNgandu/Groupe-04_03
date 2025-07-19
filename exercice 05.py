@@ -1,7 +1,7 @@
-heures=int(input("heures :"))
-minutes=int(input("minutes :"))
-secondes=int(input("secondes :"))
-
-#durée en secondes 
-durée= heures*3600 + minutes*60 + secondes
-print(f" la durée en secondes est : {durée} secondes.")
+n=float(input("entrer montant en USD :"))
+eur=n*0.93
+cfa=n*610
+gbp=n*0.79
+print(f"montant en euro : {eur}")
+print(f"montant en cfa : {cfa}")
+print(f"montant en gbp : {gbp}")

@@ -1,12 +1,5 @@
-produit="Smartphone"
-prix=300.0
-stock=50
-remise=0.20
-#calcul du orix final
-prix_final=prix*(1-remise) 
-#affichage 
-print(f"Produit : {produit}")
-print(f"Prix : {prix}$")
-print(f"remise : {remise * 100}%")
-print(f"Prix final après remise : {prix_final}$")
-print(f"Stock de produit : {stock}")
+n=int(input("entrer un nombre entier :"))
+if n%5==0 and n%3==0:
+    print(n," est divisible par 3 et 5")
+else :
+    print(n,"n'est pas divisble par 3 et 5 en même temps")

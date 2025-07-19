@@ -1,16 +1,16 @@
-# demande informations à l'utilisateur
-prenom=input("Entrez votre prénom :")
-age=int(input("Entrez votre âge :"))
-ville=input("Entrez votre ville :")
-metier=input("Entrez votre metier :")
+a=float(input("entrer un premier nombre"))
+b=float(input("entrer un seuxième nombre"))
 
-#approximation des jours vécus
-jours_vécus=age*365
-
-#affichage formaté
-
-print("\n === Profil utilsateur ===")
-print(f"Prénom : {prenom}")
-print(f"Age : {age}")
-print(f"Ville : {ville}")
-print(f"Metier : {metier}")
+somme=a+b
+difference=a-b
+produit= a*b
+quotient_réelle= a/b if b !=0 else "division par 0 impossible"
+quotient_entier= a//b if b!=0 else "division par 0 impossible"
+reste= a%b if b!=0 else "division par 0 impossible"
+#affichage des resultats
+print(f"Somme : {somme}")
+print(f"différence : {difference}")
+print(f"produit : {produit}")
+print(f"quotient : {quotient_réelle}")
+print(f"division entière : {quotient_entier}")
+print(f"reste : {reste}")
