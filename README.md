@@ -6,4 +6,4 @@ codes des exercices de tps
 # nous n'avons pas pu directement les publier avec l'ordinateur par dossier
 
 # il ne restait que l'option dde publier chacun des fichiers individuellement. Toute cette démarche nous a pris du temps
-# Nous espérons de vos, monsieur l'assistant, une clémente compréhension de notre situation. Merci d'avance. 
+# Nous espérons de vous, monsieur l'assistant, une clémente compréhension de notre situation. Merci. 
